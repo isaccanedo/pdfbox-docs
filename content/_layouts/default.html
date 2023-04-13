@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+
+     Licensed to the Apache Software Foundation (ASF) under one or more
+     contributor license agreements.  See the NOTICE file distributed with
+     this work for additional information regarding copyright ownership.
+     The ASF licenses this file to You under the Apache License, Version 2.0
+     (the "License"); you may not use this file except in compliance with
+     the License.  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE- 2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+     -->
+
+{% include head.html %}
+
+<body>
+
+  {% include header.html %}
+
+    <div class="container">
+
+        <div class="row row-offcanvas row-offcanvas-left">
+            <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
+
+                <ul class="sidebar">
+                    <li class="sidebar-header">Apache PDFBox</li>
+                    <li><a href="/index.html">Overview</a></li>
+                    <li><a href="https://www.apache.org/licenses">License</a></li>
+                    <li><a href="/download.html">Download</a></li>
+
+                    <li class="sidebar-header">Community</li>
+                    <li><a href="/support.html">Support</a></li>
+                    <li><a href="/mailinglists.html">Mailing Lists</a></li>
+                    <li><a href="https://issues.apache.org/jira/browse/PDFBOX">Issue Tracker</a></li>
+                    <li><a href="/team.html">Project Team</a></li>
+
+                    <li class="sidebar-header">Documentation</li>
+                    <li class="sidebar-node" id="v3-0">
+                        <a href="#">3.0 (Pre Release)</a>
+                        <ul>
+                            <li><a href="/3.0/migration.html">Migration Guide</a></li>
+                            <li><a href="https://javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.0-alpha3/index.html">API Docs&emsp;<small>via javadoc.io</small></a></li>
+                        </ul>
+                    </li>
+                    <li class="sidebar-node" id="v2-0">
+                        <a href="#">2.0</a>
+                        <ul>
+                            <li><a href="/2.0/migration.html">Migration Guide</a></li>
+                            <li><a href="/2.0/getting-started.html">Getting Started</a></li>
+                            <li><a href="/2.0/examples.html">Examples</a></li>
+                            <li><a href="/2.0/dependencies.html">Dependencies</a></li>
+                            <li class="sidebar-node" id="v2-0-cookbook">
+                                <a href="#">Cookbook</a>
+                                <ul>
+                                    <li><a href="/2.0/cookbook/encryption.html">Document Encryption</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="/2.0/commandline.html">Command-Line Tools</a></li>
+                            <li><a href="/2.0/faq.html">FAQ</a></li>
+                            <li><a href="https://javadoc.io/doc/org.apache.pdfbox/pdfbox/2.0.27/index.html">API Docs&emsp;<small>via javadoc.io</small></a></li>
+                        </ul>
+                    </li>
+                    <li class="sidebar-node" id="v1-8">
+                        <a href="#">1.8</a>
+                        <ul>
+                            <li><a href="/1.8/architecture.html">Architecture</a></li>
+                            <li><a href="/1.8/dependencies.html">Dependencies</a></li>
+                            <li class="sidebar-node" id="v1-8-cookbook">
+                                <a href="#">Cookbook</a>
+                                <ul>
+                                    <li><a href="/1.8/cookbook/documentcreation.html">Document Creation</a></li>
+                                    <li><a href="/1.8/cookbook/textextraction.html">Text Extraction</a></li>
+                                    <li><a href="/1.8/cookbook/encryption.html">Document Encryption</a></li>
+                                    <li><a href="/1.8/cookbook/workingwithfonts.html">Working with Fonts</a></li>
+                                    <li><a href="/1.8/cookbook/workingwithmetadata.html">Working with Metadata</a></li>
+                                    <li><a href="/1.8/cookbook/workingwithattachments.html">Working with Attachments</a></li>
+                                    <li><a href="/1.8/cookbook/pdfavalidation.html">PDF/A Validation</a></li>
+                                    <li><a href="/1.8/cookbook/pdfacreation.html">Creating a PDF/A Document</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="/1.8/commandline.html">Command-Line Tools</a></li>
+                            <li><a href="https://javadoc.io/doc/org.apache.pdfbox/pdfbox/1.8.17/index.html">API Docs&emsp;<small>via javadoc.io</small></a></li>
+                            <li><a href="/1.8/faq.html">FAQ</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="sidebar-header">Development</li>
+                    <li><a href="/building.html">Building from Source</a></li>
+                    <li><a href="/codingconventions.html">Coding Conventions</a></li>
+                    <li><a href="/siteupdate.html">Update the Website</a></li>
+                    <li><a href="https://ci-builds.apache.org/job/PDFBox/">Jenkins</a></li>
+                    <li><a href="https://sonarcloud.io/dashboard?id=pdfbox-reactor">SonarCloud</a></li>
+                    <li><a href="https://issues.apache.org/jira/browse/PDFBOX">JIRA</a></li>
+                    <li><a href="/ideas.html">Ideas</a></li>
+                    <li><a href="/references.html">External Links</a></li>
+
+                    <li class="sidebar-header">Apache Software Foundation</li>
+                    <li><a href="https://www.apache.org/foundation/">About</a></li>
+                    <li><a href="https://www.apache.org/security/">Security</a></li>
+                    <li><a href="https://www.apache.org/foundation/sponsorship.html">Sponsorship</a></li>
+                    <li><a href="https://www.apache.org/foundation/thanks.html">Thanks</a></li>
+                </ul>
+		<!-- dontation page logo/link-->
+		<a href="https://www.apache.org/foundation/contributing.html"><img width="135" src="/images/SupportApache.jpg" alt="Support Apache"></a>
+		<!-- ASF events page logo/link -->
+		<a  href="https://www.apache.org/events/current-event.html"><img src="https://www.apache.org/events/current-event-125x125.png" alt="Apache events"></a>
+            </div>
+            <div class="col-xs-12 col-sm-9">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+
+    {% include footer.html %}
+
+    {% include footer_scripts.html %}
+
+
+</body>
+
+</html>

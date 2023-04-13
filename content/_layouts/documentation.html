@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+
+     Licensed to the Apache Software Foundation (ASF) under one or more
+     contributor license agreements.  See the NOTICE file distributed with
+     this work for additional information regarding copyright ownership.
+     The ASF licenses this file to You under the Apache License, Version 2.0
+     (the "License"); you may not use this file except in compliance with
+     the License.  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE- 2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+     -->
+
+{% include head.html %}
+
+<body>
+
+  {% include header.html %}
+
+  {% assign items =  collections.docs | navigation: eleventyNavigation %}
+
+  <div class="container documentation">
+    <nav class="accordion-menu" role="navigation">
+      <h1>Documentation</h1>
+      <ul>
+        {%- for link in items -%}
+          {%- if link.children.size == 0 -%}
+          <li>
+            <a href="{{ link.url }}" {% if link.active %}aria-current="page"{% endif %}>
+              {{ link.key }}
+            </a>
+          </li>
+          {%- elsif link.children.size > 0 -%}
+          <li class="has-children">
+            <input type="checkbox" checked>
+            <i></i>
+            <label>{{ link.key }}</label>
+              <ul>
+                {%- for child_link in link.children -%}
+                  <li>
+                    <a href="{{ child_link.url }}" {% if child_link.active %}aria-current="page"{% endif %}>
+                      {{ child_link.key }}
+                    </a>  
+                  </li>
+                {%- endfor -%}
+              </ul>
+          </li>
+          {%- endif -%}
+        {%- endfor -%}
+        <li>
+          <a href="https://javadoc.io/doc/org.apache.pdfbox/pdfbox/{{ release }}/index.html" {% if link.active %}aria-current="page"{% endif %}>
+            API Docs&emsp;<small>via javadoc.io</small>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <section>
+      {{ content }}
+    </section>
+    <aside>
+      
+      <h1>Table of Contents<a class="edit-link" href="{{ metadata.githubEdit }}{{ page.inputPath }}" title="Edit this page">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M11.013 1.427a1.75 1.75 0 012.474 0l1.086 1.086a1.75 1.75 0 010 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 01-.927-.928l.929-3.25a1.75 1.75 0 01.445-.758l8.61-8.61zm1.414 1.06a.25.25 0 00-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 000-.354l-1.086-1.086zM11.189 6.25L9.75 4.81l-6.286 6.287a.25.25 0 00-.064.108l-.558 1.953 1.953-.558a.249.249 0 00.108-.064l6.286-6.286z"/></svg>
+      </a></h1>
+      
+      {{ content | toc }}
+
+    </aside>
+  </div>
+
+  {% include footer.html %}
+
+</body>
+
+</html>

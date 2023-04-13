@@ -1,0 +1,38 @@
+<script>
+
+    function addCollapsed(el) {
+        el.classList.add('collapsed');
+    }
+
+    function toggleCollapsed(ev) {
+        ev.target.parentNode.classList.toggle('collapsed');
+        ev.preventDefault();
+    }
+
+    function addClickEvent(el) {
+        console.log(el);
+        el.addEventListener('click', toggleCollapsed);
+    }
+
+    document.querySelectorAll('.sidebar-node').forEach(addCollapsed);
+    document.querySelectorAll('.sidebar-node > a').forEach(addClickEvent);
+
+    // preserve expand/collapse across page navigation
+    var path = document.location.pathname;
+    if (path.indexOf('/1.8') == 0) {
+        var el = document.getElementById("#v1-8");
+        el.classList.toggle("collapsed");
+        if (path.indexOf('/1.8/cookbook') == 0) {
+            el = document.getElementById('v1-8-cookbook');
+            el.classList.remove('collapsed');
+        }
+    } else {
+        var el = document.getElementById("v2-0");
+        console.log(el);
+        el.classList.remove("collapsed");
+        if (path.indexOf('/2.0/cookbook') == 0) {
+            el = document.getElementById('#v2-0-cookbook');
+            el.classList.remove('collapsed');
+        }
+    }
+</script>

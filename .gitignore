@@ -1,0 +1,15 @@
+node/
+node_modules/
+content/css/styles.css*
+staging/
+target/
+package-lock.json
+.cache
+.classpath
+.project
+.sass-cache/
+.settings/
+.jekyll-cache/
+.jekyll-metadata
+.vscode
+
