@@ -27,7 +27,7 @@ Toda a documentação do [Apache PDFBox](http://pdfbox.apache.org/) é escrita c
 Contribuindo
 ------------
 
-### Contribution Guidlines
+### Diretrizes de Contribuição
 
 As a minimum requirement all contributions shall have the [Apache License](http://www.apache.org/licenses/LICENSE-2.0.html#apply) header attached.
 
