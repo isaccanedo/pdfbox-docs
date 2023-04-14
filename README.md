@@ -19,7 +19,7 @@ licença: Licenciado para a Apache Software Foundation (ASF) sob um
 Documentação do Apache PDFBox
 ===========================
 
-Documentation Format
+Formato da Documentação
 --------------------
 
 All of the [Apache PDFBox](http://pdfbox.apache.org/) documentation is written with [markdown](http://daringfireball.net/projects/markdown/syntax). 
