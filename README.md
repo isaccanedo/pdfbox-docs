@@ -9,12 +9,12 @@ licença: Licenciado para a Apache Software Foundation (ASF) sob um
 
            http://www.apache.org/licenses/LICENSE-2.0
 
-         Unless required by applicable law or agreed to in writing,
-         software distributed under the License is distributed on an
-         "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-         KIND, either express or implied.  See the License for the
-         specific language governing permissions and limitations
-         under the License.
+        A menos que exigido pela lei aplicável ou acordado por escrito,
+          software distribuído sob a Licença é distribuído em um
+          BASE "COMO ESTÁ", SEM GARANTIAS OU CONDIÇÕES DE QUALQUER
+          TIPO, expressa ou implícita. Veja a Licença para o
+          linguagem específica que rege permissões e limitações
+          sob a Licença.
 ---
 Apache PDFBox Documentation
 ===========================
