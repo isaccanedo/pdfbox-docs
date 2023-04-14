@@ -16,7 +16,7 @@ licença: Licenciado para a Apache Software Foundation (ASF) sob um
           linguagem específica que rege permissões e limitações
           sob a Licença.
 ---
-Apache PDFBox Documentation
+Documentação do Apache PDFBox
 ===========================
 
 Documentation Format
