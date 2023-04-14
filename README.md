@@ -1,11 +1,11 @@
 ---
-license: Licensed to the Apache Software Foundation (ASF) under one
-         or more contributor license agreements.  See the NOTICE file
-         distributed with this work for additional information
-         regarding copyright ownership.  The ASF licenses this file
-         to you under the Apache License, Version 2.0 (the
-         "License"); you may not use this file except in compliance
-         with the License.  You may obtain a copy of the License at
+licença: Licenciado para a Apache Software Foundation (ASF) sob um
+          ou mais contratos de licença de contribuidor. Veja o arquivo AVISO
+          distribuído com este trabalho para informações adicionais
+          sobre a propriedade dos direitos autorais. A ASF licencia este arquivo
+          a você sob a Licença Apache, Versão 2.0 (o
+          "Licença"); você não pode usar este arquivo, exceto em conformidade
+          com a Licença. Você pode obter uma cópia da Licença em
 
            http://www.apache.org/licenses/LICENSE-2.0
 
