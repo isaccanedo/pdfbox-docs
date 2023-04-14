@@ -22,7 +22,7 @@ Documentação do Apache PDFBox
 Formato da Documentação
 --------------------
 
-All of the [Apache PDFBox](http://pdfbox.apache.org/) documentation is written with [markdown](http://daringfireball.net/projects/markdown/syntax). 
+Toda a documentação do [Apache PDFBox](http://pdfbox.apache.org/) é escrita com [markdown](http://daringfireball.net/projects/markdown/syntax). 
 
 Contributing
 ------------
