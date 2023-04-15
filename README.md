@@ -31,7 +31,7 @@ Contribuindo
 
 As a minimum requirement all contributions shall have the [Apache License](http://www.apache.org/licenses/LICENSE-2.0.html#apply) header attached.
 
-For larger contributions or if you are looking to contribute regulary we ask you to sign an [ICLA](http://www.apache.org/licenses/#clas).
+Para contribuições maiores ou se você deseja contribuir regularmente, pedimos que assine um [UCLA](http://www.apache.org/licenses/#clas).
 
 ### Report or Fix an Issue
 
