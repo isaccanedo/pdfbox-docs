@@ -33,7 +33,7 @@ As a minimum requirement all contributions shall have the [Apache License](http:
 
 Para contribuições maiores ou se você deseja contribuir regularmente, pedimos que assine um [UCLA](http://www.apache.org/licenses/#clas).
 
-### Report or Fix an Issue
+### Informar ou corrigir um problema
 
 We use [Apache JIRA](https://issues.apache.org/jira/browse/PDFBOX) as our tracking tool.
 
