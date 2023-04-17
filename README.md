@@ -35,7 +35,7 @@ Para contribuições maiores ou se você deseja contribuir regularmente, pedimos
 
 ### Informar ou corrigir um problema
 
-We use [Apache JIRA](https://issues.apache.org/jira/browse/PDFBOX) as our tracking tool.
+Usamos [Apache JIRA](https://issues.apache.org/jira/browse/PDFBOX) como nossa ferramenta de rastreamento.
 
 ### Using Git Pull Requests
 
