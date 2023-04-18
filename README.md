@@ -37,7 +37,7 @@ Para contribuições maiores ou se você deseja contribuir regularmente, pedimos
 
 Usamos [Apache JIRA](https://issues.apache.org/jira/browse/PDFBOX) como nossa ferramenta de rastreamento.
 
-### Using Git Pull Requests
+### Usando solicitações Git Pull
 
 Pull requests are welcome!
 
