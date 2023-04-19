@@ -39,7 +39,7 @@ Usamos [Apache JIRA](https://issues.apache.org/jira/browse/PDFBOX) como nossa fe
 
 ### Usando solicitações Git Pull
 
-Pull requests are welcome!
+Pedidos pull são bem-vindos!
 
 We appreciate the use of topic branches.
 
