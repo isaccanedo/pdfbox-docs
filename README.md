@@ -41,7 +41,7 @@ Usamos [Apache JIRA](https://issues.apache.org/jira/browse/PDFBOX) como nossa fe
 
 Pedidos pull são bem-vindos!
 
-We appreciate the use of topic branches.
+Agradecemos o uso de ramificações de tópicos.
 
     git checkout -b <JIRA issue number>
 
