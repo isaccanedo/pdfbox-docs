@@ -51,6 +51,6 @@ Agradecemos o uso de ramificações de tópicos.
 
     git push origin <JIRA issue number>
 
-    # issue a pull request from your branch <JIRA issue number>
+    # emita uma solicitação pull de sua filial <número do problema do JIRA>
     
-    # wait for a committer to commit your patch
+    # espere que um committer confirme seu patch
