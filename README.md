@@ -45,7 +45,7 @@ Agradecemos o uso de ramificações de tópicos.
 
     git checkout -b <JIRA issue number>
 
-    # update enhance the documentation
+    # atualizar aprimorar a documentação
 
     git commit -m "<JIRA issue number>: This is my commit message."
 
