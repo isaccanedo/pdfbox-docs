@@ -47,7 +47,7 @@ Agradecemos o uso de ramificações de tópicos.
 
     # atualizar aprimorar a documentação
 
-    git commit -m "<JIRA issue number>: This is my commit message."
+    git commit -m "<JIRA issue number>: Esta é a minha mensagem de confirmação."
 
     git push origin <JIRA issue number>
 
